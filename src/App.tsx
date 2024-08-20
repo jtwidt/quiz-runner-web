@@ -1,10 +1,12 @@
-import MapComponent from './components/custom/MapComponent';
+// import MapComponent from './components/custom/MapComponent';
+import MapWithSearch from './components/custom/MapWithSearch';
 
 function App() {
   return (
     <>
       <h1>QuizRunner</h1>
-      <MapComponent />
+      {/* <MapComponent /> */}
+      <MapWithSearch />
     </>
   );
 }
